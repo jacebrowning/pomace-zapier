@@ -3,11 +3,6 @@ active_locators:
     value: ''
     index: 0
     uses: 0
-inactive_locators:
-  - mode: ''
-    value: ''
-    index: 0
-    uses: 0
 actions:
   - verb: ''
     name: ''
@@ -127,7 +122,7 @@ actions:
       - mode: css
         value: '[data-testid="searchToggler"]'
         index: 0
-        uses: 10
+        uses: 15
   - verb: fill
     name: search
     locators:
@@ -162,7 +157,7 @@ actions:
       - mode: id
         value: universal-nav-app-search
         index: 0
-        uses: 12
+        uses: 16
   - verb: click
     name: cancel
     locators:
@@ -190,3 +185,22 @@ actions:
         value: '[aria-label="Close search"]'
         index: 0
         uses: 3
+  - verb: type
+    name: arrow_down
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+  - verb: type
+    name: enter
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+inactive_locators:
+  - mode: ''
+    value: ''
+    index: 0
+    uses: 0
