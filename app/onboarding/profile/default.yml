@@ -1,0 +1,67 @@
+locators:
+  inclusions:
+    -
+  exclusions:
+    -
+actions:
+  - verb: ''
+    name: ''
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+  - verb: select
+    name: role
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+      - mode: name
+        value: role
+        index: 0
+        uses: -1
+      - mode: name
+        value: role
+        index: 0
+        uses: -1
+      - mode: id
+        value: role
+        index: 0
+        uses: -1
+      - mode: id
+        value: role
+        index: 0
+        uses: -1
+      - mode: css
+        value: '[aria-label="Role"]'
+        index: 0
+        uses: -1
+      - mode: id
+        value: Role
+        index: 0
+        uses: -1
+  - verb: click
+    name: skip
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+      - mode: text
+        value: Skip
+        index: 0
+        uses: 1
+      - mode: text
+        value: Skip
+        index: 0
+        uses: 0
+      - mode: value
+        value: Skip
+        index: 0
+        uses: 0
+      - mode: value
+        value: Skip
+        index: 0
+        uses: 0
