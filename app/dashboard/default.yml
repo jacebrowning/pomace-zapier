@@ -11,3 +11,30 @@ actions:
         value: ''
         index: 0
         uses: 0
+  - verb: click
+    name: make_a_zap
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+      - mode: text
+        value: Make A Zap
+        index: 0
+        uses: -1
+      - mode: text
+        value: Make a zap
+        index: 0
+        uses: -1
+      - mode: value
+        value: Make A Zap
+        index: 0
+        uses: -1
+      - mode: value
+        value: Make a zap
+        index: 0
+        uses: -1
+      - mode: css
+        value: '[aria-label="Make a Zap"]'
+        index: 0
+        uses: 1
